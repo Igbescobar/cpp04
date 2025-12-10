@@ -57,11 +57,6 @@ void AAnimal::setType(std::string const &type)
 	this->_type = type;
 }
 
-void AAnimal::makeSound(void) const
-{
-	std::cout << "Animal makes a generic sound" << std::endl;
-}
-
 /*
 ** --------------------------------- ACCESSOR ---------------------------------
 */
