@@ -3,14 +3,14 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: igbescobar <igbescobar@student.42.fr>      +#+  +:+       +#+         #
+#    By: igngonza <igngonza@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/01 11:41:02 by igbescobar        #+#    #+#              #
-#    Updated: 2025/12/01 13:24:51 by igbescobar       ###   ########.fr        #
+#    Updated: 2025/12/12 13:31:24 by igngonza         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = animal
+NAME = abstract
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 SRCS = main.cpp AAnimal.cpp Dog.cpp Cat.cpp WrongAnimal.cpp WrongCat.cpp Brain.cpp
