@@ -44,6 +44,11 @@ std::ostream &operator<<(std::ostream &o, WrongCat const &i)
 	return (o);
 }
 
+void WrongCat::makeSound(void) const
+{
+	std::cout << "Should not output" << std::endl;
+}
+
 /*
 ** --------------------------------- METHODS ----------------------------------
 */

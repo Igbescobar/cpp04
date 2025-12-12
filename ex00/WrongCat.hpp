@@ -13,6 +13,7 @@ class WrongCat : public WrongAnimal
 	~WrongCat();
 
 	WrongCat &operator=(WrongCat const &rhs);
+	void makeSound(void) const;
 
   private:
 };

@@ -42,5 +42,11 @@ int	main(void)
 	wrong_meta->makeSound();
 	std::cout << std::endl;
 
+	delete j;
+	delete i;
+	delete meta;
+	delete wrong_i;
+	delete wrong_meta;
+
 	return (0);
 }
